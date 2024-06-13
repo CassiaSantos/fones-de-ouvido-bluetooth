@@ -1,0 +1,6 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center; /*Alinha conteúdo horizontalmente no centro */
+    align-content: center; /*Alinha conteúdo verticalmente no centro */
+  }
