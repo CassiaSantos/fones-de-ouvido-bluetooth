@@ -1,6 +1,77 @@
 body{
     background-color: black;
     color: white;
+    font-family: "Noto Serif";
     text-align: center; /*Alinha conteúdo horizontalmente no centro */
     align-content: center; /*Alinha conteúdo verticalmente no centro */
+  }
+  
+  #bg-image{
+    background-image: url("https://raw.githubusercontent.com/CassiaSantos/fones-de-ouvido-bluetooth/main/assets/Images/fonedeOuvidoBluetooth.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    inset: 0;
+    opacity: 0.1;
+    z-index: -1;
+  }
+  
+  h1{
+    font-size: 4rem;
+    line-height: 1.2;
+  
+  }
+  
+  h1 span{
+    color: #ff5563;
+  }
+  
+  p{
+    font-size: 1.25rem;
+    margin-bottom: 4.5rem;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+    background-color: #ff5563;
+    padding: 1.2rem 2rem; /*em cima e embaixo, depois nas laterais*/
+    border-radius: 0.8rem;
+    font-size: 1.25rem;
+    transition: 300ms; /*A mudança de background-color demora alguns milissegundos, fazendo com a transição seja mais suave */
+  }
+  
+  a:hover{
+    background-color: #f83d4c;
+  }
+  
+  /* Adaptação para diferentes tamanhos de tela */
+  @media(width < 40rem) {
+    html{
+      font-size: 70%;
+    }
+  }
+  
+  /* Animação da página */
+  h1, p, a{
+    animation: appear 1s backwards;
+  }
+  
+  h1{
+    animation-delay: 0.2s;
+  }
+  
+  p{
+    animation-delay: 0.8s;
+  }
+  
+  a{
+    animation-delay: 1.6s;
+  }
+  
+  @keyframes appear{
+    0%{
+      opacity: 0;
+    }
   }
