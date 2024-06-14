@@ -13,7 +13,7 @@ body{
     background-repeat: no-repeat;
     position: absolute;
     inset: 0;
-    opacity: 0.1;
+    opacity: 0.2;
     z-index: -1;
   }
 
@@ -22,7 +22,6 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-/*     padding-bottom: 4rem; */
   }
   
   h1{
@@ -58,6 +57,10 @@ body{
   @media(width < 40rem) {
     html{
       font-size: 70%;
+    }
+
+    .hero{
+      transform: translate(-50%, -60%);
     }
   }
   
