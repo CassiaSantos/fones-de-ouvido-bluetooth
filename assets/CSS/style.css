@@ -36,7 +36,7 @@ body{
   }
   
   p{
-    font-size: 1.25rem;
+    font-size: 1.8rem;
     margin-bottom: 4.5rem;
   }
   
@@ -46,7 +46,7 @@ body{
     background-color: #ff5563;
     padding: 1.2rem 2rem; /*em cima e embaixo, depois nas laterais*/
     border-radius: 0.8rem;
-    font-size: 1.25rem;
+    font-size: 1.8rem;
     transition: 300ms; /*A mudança de background-color demora alguns milissegundos, fazendo com a transição seja mais suave */
   }
   
